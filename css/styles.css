@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #112D52;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.back-button-container {
+  margin-top: 50px;
+  margin-bottom: 40px; /* Added margin after the button */
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px; /* Increased padding for more space */
+  background-color: #1984b6;
+  border: 2px solid #000000; /* Dark blue border */
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #ff0000;
+}
+
+
+h2 {
+  font-size: 44px;
+  margin: 10px 0 40px; /* Adjusted top, bottom, and right margin */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center; /* Center button rows horizontally */
+}
+
+.button-row {
+  display: flex;
+  gap: 30px;
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+.button {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #112D52;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 40px;
+  min-width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\2192';
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: #112D52;
+}
+
+.button:hover span {
+  padding-right: 55px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 5px;
+}
+
