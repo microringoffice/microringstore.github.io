@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function handleLoginResult(isValidLogin) {
   if (isValidLogin) {
-    window.location.href = "https://www.microring.store/HomePage.html"; // Redirect to your protected page
+    window.location.href = "https://script.google.com/macros/s/AKfycbxkQj-V4FiyUnxOg40LpH8CvExchda6lMtu_isPZAfm1YAczAExjS90tNh1sYijaTNUfw/exec"; // Redirect to your protected page
   } else {
     alert("Invalid username or password. Please try again.");
   }
