@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 767px)">
+</head>
+<body>
+
+
+    <div class="back-button-container">
+      <a href="HomePage.html" class="back-button"> ↞  Back </a>
+    </div>
+
+  <h2 class="no-underline">MICRO RING INDUSTRIES</h2>
+
+  <div class="button-container">
+    <div class="button-row">
+      <a href="https://www.google.com" class="button"><span>Raw Material</span></a>
+      <a href="https://www.google.com" class="button"><span>Production</span></a>
+      <a href="https://www.google.com" class="button"><span>Quality</span></a>
+    </div>
+    <div class="button-row">
+      <a href="https://www.google.com" class="button"><span>Maintenance</span></a>
+      <a href="https://www.google.com" class="button"><span>Batch Report</span></a>
+    </div>
+  </div>
+
+</body>
+</html>
