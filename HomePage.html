@@ -7,12 +7,23 @@
 </head>
 <body>
 
-
-    <div class="back-button-container">
-      <a href="https://www.google.com" class="back-button"> ↞  Back </a>
-    </div>
+  <div class="back-button-container">
+    <a href="https://www.google.com" class="back-button"> ↞ Back </a>
+  </div>
 
   <h2 class="no-underline">MICRO RING INDUSTRIES</h2>
+
+  <div class="login-container">
+    <form id="login-form" action="#">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+      
+      <button type="submit">Login</button>
+    </form>
+  </div>
 
   <div class="button-container">
     <div class="button-row">
@@ -26,5 +37,6 @@
     </div>
   </div>
 
+  <script src="js/login.js"></script>
 </body>
 </html>
