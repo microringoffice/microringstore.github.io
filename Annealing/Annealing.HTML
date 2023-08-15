@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 767px)">
+</head>
+<body>
+
+  <div class="logo-container">
+    <a href="C:\Users\keval\Desktop\WEBSITE\HOME PAGE\HomePage.HTML">
+      <img src="C:\Users\keval\Desktop\WEBSITE\Images\MRI Only Logo.jpg" alt="Micro Ring Industries Logo">
+    </a>
+  </div>
+
+  <h2 class="no-underline">MRI AN
+  </h2>
+
+  <div class="button-container">
+    <div class="button-row">
+      <a href="https://www.google.com" class="button"><span>Batch Details</span></a>
+      <a href="https://www.google.com" class="button"><span>Inspection</span></a>
+    </div>
+    <div class="button-row">
+      <a href="https://www.google.com" class="button"><span>Maintenance</span></a>
+    </div>
+  </div>
+
+  <script>
+    function checkPassword() {
+      const enteredUsername = prompt("Username:");
+      const enteredPassword = prompt("Password:");
+      const correctUsername = "MRI AN";
+      const correctPassword = "Micro@AN";
+
+      if (enteredUsername === correctUsername && enteredPassword === correctPassword) {
+        // Correct username and password, allow access to the page
+      } else {
+        alert("Invalid username or password. Please try again.");
+        window.location.reload(); // Reload the page to prompt again
+      }
+    }
+    //checkPassword();
+  </script>
+
+</body>
+</html>
