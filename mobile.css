@@ -1,0 +1,52 @@
+/* mobile.css */
+
+/* Apply styles only for devices with a maximum width of 767 pixels (typical mobile devices) */
+@media (max-width: 767px) {
+
+
+  
+    /* Reduce the font size for the heading on mobile devices */
+    h2 {
+        font-size: 24px;
+        margin: 10px 0 40px; /* Adjusted top, bottom, and right margin */
+      }
+      h2 {
+        font-size: 18px;
+        margin: 10px 0 30px; /* Adjusted top, bottom, and right margin */
+      }
+
+
+    /* Adjust button container for mobile devices */
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .back-button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Adjust button row for mobile devices */
+    .button-row {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    /* Reduce button padding and font size for mobile devices */
+    .button {
+      padding: 20px;
+      font-size: 16px;
+    }
+  
+    /* Reduce the right arrow padding for mobile devices */
+    .button span:after {
+      right: 2px;
+    }
+  
+    /* Adjust the logo image size for mobile devices */
+    .logo-container img {
+      max-width: 30%;
+    }
+  }
+  
