@@ -38,11 +38,6 @@ h2 {
   margin: 10px 0 40px; /* Adjusted top, bottom, and right margin */
 }
 
-h3 {
-  font-size: 34px;
-  margin: 5px 0 5px; /* Adjusted top, bottom, and right margin */
-}
-
 .button-container {
   display: flex;
   flex-direction: column;
@@ -100,4 +95,3 @@ h3 {
   opacity: 1;
   right: 5px;
 }
-
