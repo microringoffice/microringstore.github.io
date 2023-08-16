@@ -11,6 +11,31 @@ body {
   margin: 0;
 }
 
+    .auth-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Style for the authentication form */
+    .auth-form {
+      text-align: center;
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: #f7f7f7;
+    }
+
+    /* Style for the login button */
+    #login-button {
+      margin-top: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+
 .back-button-container {
   margin-top: 50px;
   margin-bottom: 40px; /* Added margin after the button */
