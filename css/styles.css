@@ -98,8 +98,6 @@ h2 {
 
 .auth-container {
   background-color: white;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
   max-width: 400px;
   margin: auto; /* Center horizontally */
   display: flex;
@@ -109,6 +107,8 @@ h2 {
   height: 400px; /* Center vertically */
   padding: 20px;
 
+  }
+  
 .auth-form label {
   font-weight: bold;
   display: block;
