@@ -11,6 +11,7 @@ body {
   margin: 0;
 }
 
+/* Styles for the authentication container */
 .auth-container {
   display: flex;
   justify-content: center;
@@ -19,40 +20,57 @@ body {
   background-color: #112D52;
 }
 
-/* Style for the authentication form */
+/* Styles for the authentication form */
 .auth-form {
   text-align: center;
   width: 300px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   background-color: white;
-  animation: fade-in 0.5s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* Styles for input fields and labels */
+.form-outline {
+  position: relative;
+  margin-bottom: 20px;
 }
 
-/* Style for the login button */
-#login-button {
-  margin-top: 20px;
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.form-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+.form-control:focus + .form-label,
+.form-control:not(:placeholder-shown) + .form-label {
+  top: -20px;
+  font-size: 14px;
+  color: #112D52;
+}
+
+/* Style for the sign-in button */
+.btn-primary {
   background-color: #112D52;
-  color: white;
   border: none;
   padding: 10px 20px;
+  color: white;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-#login-button:hover {
+.btn-primary:hover {
   background-color: #0A1E3E;
 }
 
