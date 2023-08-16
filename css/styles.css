@@ -108,7 +108,7 @@ h2 {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   max-width: 400px;
-  margin: 100px auto;
+ margin: 0 auto; /* Center horizontally */
   padding: 20px;
 }
 
